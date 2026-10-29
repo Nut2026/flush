@@ -1,0 +1,2 @@
+
+ALTER TABLE deck_shares ADD COLUMN IF NOT EXISTS message text DEFAULT NULL;

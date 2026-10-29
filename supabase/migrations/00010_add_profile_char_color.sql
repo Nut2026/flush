@@ -1,0 +1,1 @@
+ALTER TABLE profiles ADD COLUMN profile_char_color text NOT NULL DEFAULT '#ffffff';

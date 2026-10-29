@@ -1,0 +1,1 @@
+ALTER TABLE game_tokens ADD COLUMN IF NOT EXISTS bonus_tokens integer NOT NULL DEFAULT 0;

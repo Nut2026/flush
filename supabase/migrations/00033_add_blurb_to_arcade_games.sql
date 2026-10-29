@@ -1,0 +1,1 @@
+ALTER TABLE arcade_games ADD COLUMN blurb text NOT NULL DEFAULT '';

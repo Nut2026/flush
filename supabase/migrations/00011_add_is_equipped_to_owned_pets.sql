@@ -1,0 +1,1 @@
+ALTER TABLE owned_pets ADD COLUMN IF NOT EXISTS is_equipped boolean NOT NULL DEFAULT false;
