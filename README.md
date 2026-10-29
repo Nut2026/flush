@@ -9,6 +9,8 @@
 [![Backend: Supabase](https://img.shields.io/badge/Backend-Supabase-3ECF8E.svg?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
+[![Flush Demo v1.0](https://img.youtube.com/vi/UKm5fNeK2_E/hqdefault.jpg)](https://youtu.be/UKm5fNeK2_E)
+
 ## About Flush
 
 Flush is a flashcard app that treats revision as something to look forward to: decks, streaks, gems, clubs and arcade games, all built around the cards you are actually trying to learn. My greatest ambition in creating Flush is to turn a deck of flashcards into a small world you want to come back to.
