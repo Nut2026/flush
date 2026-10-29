@@ -1,33 +1,67 @@
 # Dependencies
 node_modules/
-
-# Build output
-dist/
-dist-ssr/
-
-# Local env files
-.env
-.env.local
-.env.*.local
-.dev.vars
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor and OS files
-.vscode/*
-!.vscode/extensions.json
-.idea/
-.DS_Store
-Thumbs.db
+.pnpm-store/
 
 # Supabase local state
 supabase/.temp/
 supabase/.branches/
+supabase/.env
+supabase/.env.*
 
-# TypeScript build info
+# Build outputs
+dist/
+build/
+out/
+dist-ssr/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+
+# Virtual environments
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.freebuff/
+*.swp
+*.swo
+*~
+
+# Cache
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+.vite/
+.wrangler/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.bak
+*.tmp
+*.temp
 *.tsbuildinfo
